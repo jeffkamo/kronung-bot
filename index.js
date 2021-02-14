@@ -32,6 +32,9 @@ fileCheck();
 const config = require('./config/config.json');
 const nick = require('./commands/nick.js');
 
+config.token = process.env.TOKEN;
+config.server_id = process.env.SERVER_ID;
+
 //#endregion
 
 bot.on('ready', () => {
@@ -141,4 +144,7 @@ function fileCheck() {
 
 bot.login(config.token)
     .then(console.log("Bot Login"))
-    .catch(error => console.log("The provided token is invalid. Please check your config file in config/config.json for a valid bot token.\n" + error))
+    .catch(error => console.log("The provided token is invalid. Please check your config file in config/config.json for a valid bot token.\n" + error));
+
+// Add express server that I can ping with uptimebot
+require('./utilities/keepAlive.js');
