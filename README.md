@@ -1,5 +1,7 @@
 # kronung-bot
 
+![Kronung in his glory](https://user-images.githubusercontent.com/734535/107870044-04143300-6e4a-11eb-92f0-15962992e879.png)
+
 > (orignally `pap-assistance-discord-bot`)
 
 ## Description
