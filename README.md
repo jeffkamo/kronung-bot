@@ -1,4 +1,7 @@
-# pap-assistance-discord-bot
+# kronung-bot
+
+> (orignally `pap-assistance-discord-bot`)
+
 ## Description
 A discord bot that assists in the daily struggles of dungeons masters and players around the world
 
